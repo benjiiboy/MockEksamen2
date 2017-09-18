@@ -49,7 +49,6 @@ namespace MockEksamen2
                 model = value;
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentOutOfRangeException("Car must have a model");
-
             }
         }
 
