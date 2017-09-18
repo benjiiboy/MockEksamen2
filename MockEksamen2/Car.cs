@@ -51,7 +51,6 @@ namespace MockEksamen2
                     throw new ArgumentOutOfRangeException("Car must have a model");
             }
         }
-
         /// <summary>
         /// Bilens registraerings nummer, hvis længden ikke er 7 vil der blive kastet en exception 
         /// </summary>
